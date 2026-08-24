@@ -210,7 +210,7 @@ function App() {
                   </h3>
 
                   <p className="project-description">
-                    Building my portfolio to present my projects and showcase my work.
+                    My personal developer portfolio, rebuilt in React with an interactive Three.js hero. It features responsive 3D text, custom vertex-colour gradients, pointer interaction, delayed idle animation and small hidden easter eggs alongside my projects, skills and DevSecOps learning journey.
                   </p>
 
                   <a
@@ -229,12 +229,37 @@ function App() {
 
                   <div className="project-detail">
                     <span>Frontend</span>
-                    <p>HTML</p>
+                    <p>React</p>
                   </div>
 
                   <div className="project-detail">
                     <span>Frontend</span>
                     <p>CSS</p>
+                  </div>
+
+                  <div className="project-detail">
+                    <span>Frontend</span>
+                    <p>JavaScript</p>
+                  </div>
+
+                  <div className="project-detail">
+                    <span>3D</span>
+                    <p>Three.js</p>
+                  </div>
+
+                  <div className="project-detail">
+                    <span>3D</span>
+                    <p>React Three Fiber</p>
+                  </div>
+
+                  <div className="project-detail">
+                    <span>3D</span>
+                    <p>Drei</p>
+                  </div>
+
+                  <div className="project-detail">
+                    <span>Tooling</span>
+                    <p>Vite</p>
                   </div>
 
                 </div>
