@@ -21,10 +21,6 @@ function App() {
           </div>
         </nav>
 
-        <div className="hero-content">
-
-        </div>
-
       </header>
 
 

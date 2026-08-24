@@ -87,30 +87,6 @@ a {
     pointer-events: none;
 }
 
-.hero::after {
-    content: "";
-
-    position: absolute;
-
-    width: 600px;
-    height: 600px;
-
-    left: 50%;
-    top: 45%;
-
-    transform: translate(-50%, -50%);
-
-    background:
-        radial-gradient(
-            circle,
-            rgba(99, 212, 229, 0.07),
-            transparent 65%
-        );
-
-    pointer-events: none;
-}
-
-
 /* ---------- Navigation ---------- */
 
 .nav {
@@ -862,4 +838,48 @@ main {
 .nav {
     position: relative;
     z-index: 3;
+}
+
+.sudo-easter-egg {
+    position: absolute;
+
+    left: 50%;
+    bottom: 2.5rem;
+
+    display: flex;
+    gap: 0.75rem;
+
+    padding: 0.7rem 1rem;
+
+    font-family: monospace;
+    font-size: 0.85rem;
+
+    color: #ffffff;
+    background: rgba(8, 9, 13, 0.92);
+
+    border: 1px solid rgba(3, 206, 252, 0.35);
+    border-radius: 6px;
+
+    opacity: 0;
+
+    transform:
+        translate(-50%, 8px);
+
+    transition:
+        opacity 160ms ease,
+        transform 160ms ease;
+
+    pointer-events: none;
+    z-index: 2;
+}
+
+.sudo-easter-egg.is-visible {
+    opacity: 1;
+
+    transform:
+        translate(-50%, 0);
+}
+
+.sudo-command {
+    color: #03cefc;
 }
